@@ -1,0 +1,8 @@
+streamlit>=1.29
+python-dotenv>=1.0
+bip-utils>=2.9
+web3>=6.0
+eth-account>=0.10
+mnemonic==0.21
+xrpl-py==2.3.0
+qrcode>=7.4

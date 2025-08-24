@@ -25,3 +25,5 @@ def send_eth_transaction(wallet, to_address, amount_eth):
     signed_tx = wallet.sign_transaction(tx)
     tx_hash = w3.eth.send_raw_transaction(signed_tx.rawTransaction)
     return tx_hash.hex()
+def get_web3():
+    return w3
